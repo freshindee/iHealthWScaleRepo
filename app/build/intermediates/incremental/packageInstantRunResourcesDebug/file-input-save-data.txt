@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Thu Mar 15 15:13:36 GMT+08:00 2018
+2.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+5.set=ANDROID_RESOURCE
+3.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+2.set=ANDROID_RESOURCE
+4.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\list_item_device.xml
+7.set=ANDROID_RESOURCE
+count=8
+0.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_bluetooth_on.png
+5.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_bluetooth.png
+1.set=ANDROID_RESOURCE
+7.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+3.set=ANDROID_RESOURCE
+1.base=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.set=ANDROID_RESOURCE

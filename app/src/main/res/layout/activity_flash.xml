@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FlashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_logo"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="333dp"
+            android:layout_height="76dp"
+            android:src="@drawable/logonew" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/top_logo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="@dimen/heading_font_size"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:text="Vitals self-check station"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+    <!--Enter Mobile-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="100dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_mobile"
+            android:background="@android:color/transparent"
+            android:paddingBottom="15dp"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textSize="@dimen/lable_font_size"
+            android:textColor="@color/dark"
+            android:textColorHint="@color/dark"
+            android:fontFamily="sans-serif-normal"
+            android:hint="Enter your mobile number"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dark"></LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--New Gender-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/lable_font_size"
+            android:textColor="@color/dark"
+            android:fontFamily="sans-serif-normal"
+            android:text="Gender"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/male"
+                android:id="@+id/btn_Male"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/female"
+                android:id="@+id/btn_FeMale"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <!--Enter Age-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:paddingBottom="100dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/lable_font_size"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:text="Age"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:text="Years"/>
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:max="100"
+                android:progress="10"
+                android:paddingTop="10dp"
+                android:progressDrawable="@drawable/seekbar_drawable_bg"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_age"
+                android:textSize="@dimen/lable_font_size"
+                android:textColor="@color/dark"
+                android:fontFamily="sans-serif-normal"
+                android:text=""/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <!--Enter Height-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_height"
+            android:textColor="@color/dark"
+            android:fontFamily="sans-serif-normal"
+            android:textSize="@dimen/lable_font_size"
+            android:background="@android:color/transparent"
+            android:text="Height"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+        <!--Feet Bar-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="@color/dark"
+                            android:fontFamily="sans-serif-normal"
+                            android:text="Feet"/>
+                        <SeekBar
+                            android:id="@+id/seekBar2"
+                            android:max="7"
+                            android:paddingTop="10dp"
+                            android:progressDrawable="@drawable/seekbar_drawable_bg"
+                            android:progress="2"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_adi"
+                            android:paddingRight="10dp"
+                            android:textSize="@dimen/lable_font_size"
+                            android:textColor="@color/dark"
+                            android:fontFamily="sans-serif-normal"
+                            android:text=""/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:paddingLeft="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/lbl_height"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:paddingRight="10dp"
+                            android:textColor="@color/dark"
+                            android:fontFamily="sans-serif-normal"
+                            android:text="Inches"/>
+                        <SeekBar
+                            android:id="@+id/seekBar3"
+                            android:max="12"
+                            android:paddingTop="10dp"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/seekbar_drawable_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/txt_agal"
+                            android:textSize="@dimen/lable_font_size"
+                            android:textColor="@color/dark"
+                            android:fontFamily="sans-serif-normal"
+                            android:text=""/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <!--Save Button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_coner_button_bg"
+            android:textColor="@color/white"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/lable_font_size"
+            android:textAllCaps="false"
+            android:id="@+id/btn_save"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</RelativeLayout>

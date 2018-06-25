@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Tue Jun 05 22:17:37 IST 2018
+7.path=lib/x86/libBodyfat.so
+2.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+5.set=NATIVE_RESOURCE
+0.path=lib/armeabi-v7a/libBodyfat.so
+2.baseType=DIRECTORY
+3.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+7.baseType=DIRECTORY
+2.set=NATIVE_RESOURCE
+1.path=lib/arm64-v8a/libBodyfat.so
+4.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
+7.set=NATIVE_RESOURCE
+count=8
+5.baseType=DIRECTORY
+2.path=lib/x86_64/libBodyfat.so
+5.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.set=DEX
+3.path=lib/mips64/libBodyfat.so
+6.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=classes.dex
+7.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/armeabi/libBodyfat.so
+0.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=lib/mips/libBodyfat.so
+1.base=C\:\\Drive_D\\Working\\Scale_Device\\HeTai_BleApi_v2.0\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE

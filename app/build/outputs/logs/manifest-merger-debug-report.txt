@@ -1,0 +1,169 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\827c149ce7f8280af83d0e381096c97c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\96afa95c37c84f295847ae6c9b79a567\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee629c5159aba3a015cdd6248fbb797e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\04303065f9a12ec122ae16323bf2a7b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d31c4f02d2db0071c80437089aaa2b4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\172a3e9b0f126b0b85c18a4c8e1d1548\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\219acedf7469451cc394844ae09ce029\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2af0ea1614b22d811315d45602f8518d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\888a95b7de9497a6bba3e6d13a9c9335\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\79e4b66701a48a66f04205f517b7bab5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\df2b85174068e54bddbd95fe78f6d94a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\39f76ff55c4c7478f492e87cfdcc3b68\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ebac6e987a4866d9c4febbef09374f47\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8c91f266dcdd69e5cdb4b9cbc2abd544\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\827c149ce7f8280af83d0e381096c97c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\827c149ce7f8280af83d0e381096c97c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\96afa95c37c84f295847ae6c9b79a567\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\96afa95c37c84f295847ae6c9b79a567\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee629c5159aba3a015cdd6248fbb797e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ee629c5159aba3a015cdd6248fbb797e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\04303065f9a12ec122ae16323bf2a7b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\04303065f9a12ec122ae16323bf2a7b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d31c4f02d2db0071c80437089aaa2b4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d31c4f02d2db0071c80437089aaa2b4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\172a3e9b0f126b0b85c18a4c8e1d1548\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\172a3e9b0f126b0b85c18a4c8e1d1548\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\219acedf7469451cc394844ae09ce029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\219acedf7469451cc394844ae09ce029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2af0ea1614b22d811315d45602f8518d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2af0ea1614b22d811315d45602f8518d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\888a95b7de9497a6bba3e6d13a9c9335\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\888a95b7de9497a6bba3e6d13a9c9335\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\79e4b66701a48a66f04205f517b7bab5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\79e4b66701a48a66f04205f517b7bab5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\df2b85174068e54bddbd95fe78f6d94a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\df2b85174068e54bddbd95fe78f6d94a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\39f76ff55c4c7478f492e87cfdcc3b68\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\39f76ff55c4c7478f492e87cfdcc3b68\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ebac6e987a4866d9c4febbef09374f47\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ebac6e987a4866d9c4febbef09374f47\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8c91f266dcdd69e5cdb4b9cbc2abd544\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8c91f266dcdd69e5cdb4b9cbc2abd544\AndroidManifest.xml:20:5-44
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:12:9-53
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:17:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:23:22-77
+application
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:25:5-56:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\96afa95c37c84f295847ae6c9b79a567\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\PC\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\96afa95c37c84f295847ae6c9b79a567\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:27:9-45
+	android:allowBackup
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:29:9-40
+activity#com.lefu.hetai_bleapi.FlashActivity
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:31:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:37:27-74
+service#com.lefu.hetai_bleapi.api.service.BluetoothLeService
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:42:9-44:38
+	android:enabled
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:44:13-35
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:43:13-59
+activity#com.lefu.hetai_bleapi.MainActivity
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:46:9-48:52
+	android:screenOrientation
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:47:13-41
+activity#com.lefu.hetai_bleapi.IntroActivity
+ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:53:9-54:61
+	android:screenOrientation
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Drive_D\Working\Scale_Device\HeTai_BleApi_v2.0\app\src\main\AndroidManifest.xml:53:19-48

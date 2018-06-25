@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lefu.hetai_bleapi.MainActivity"
+    android:fillViewport="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:id="@+id/ble_ly"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ble_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_bluetooth"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/ble_name"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-normal"
+            android:textSize="@dimen/lable_font_size"
+            android:hint="@string/no_device_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ble_wait"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:paddingTop="15dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/lable_font_size"
+            android:text=""
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:fontFamily="sans-serif-black"
+                android:text="Vitals self-check station"/>
+
+
+           <!--Weight-->
+            <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-normal"
+        android:textSize="@dimen/result_lable_font_size"
+        android:text="Weight" />
+    <TextView
+        android:id="@+id/tv_data_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/text_values"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="@dimen/lable_font_size"
+        android:text="00" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dark"></LinearLayout>
+
+</LinearLayout>
+
+            <!--BMI-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:textSize="@dimen/result_lable_font_size"
+                    android:text="BMI" />
+                <TextView
+                    android:id="@+id/tv_data_bmi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/text_values"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="@dimen/lable_font_size"
+                    android:text="00" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dark"></LinearLayout>
+
+            </LinearLayout>
+
+            <!--Body Fat-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:textSize="@dimen/result_lable_font_size"
+                    android:text="Body fat" />
+                <TextView
+                    android:id="@+id/tv_data_body_fat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/text_values"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="@dimen/lable_font_size"
+                    android:text="00" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dark"></LinearLayout>
+
+            </LinearLayout>
+
+            <!--BMR-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:textSize="@dimen/result_lable_font_size"
+                    android:text="BMR" />
+                <TextView
+                    android:id="@+id/tv_data_bmr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/text_values"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="@dimen/lable_font_size"
+                    android:text="00" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dark"></LinearLayout>
+
+            </LinearLayout>
+
+            <!--Water-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:textSize="@dimen/result_lable_font_size"
+                    android:text="Water" />
+                <TextView
+                    android:id="@+id/tv_data_water"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/text_values"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="@dimen/lable_font_size"
+                    android:text="00" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dark"></LinearLayout>
+
+            </LinearLayout>
+
+            <!--Muscle-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:textSize="@dimen/result_lable_font_size"
+                    android:text="Muscle" />
+                <TextView
+                    android:id="@+id/tv_data_muscle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/text_values"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="@dimen/lable_font_size"
+                    android:text="00" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dark"></LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--Visceral fat-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark"
+                    android:fontFamily="sans-serif-normal"
+                    android:textSize="@dimen/result_lable_font_size"
+                    android:text="Visceral fat" />
+                <TextView
+                    android:id="@+id/tv_data_visceral_fat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@color/text_values"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="@dimen/lable_font_size"
+                    android:text="00" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dark"></LinearLayout>
+
+            </LinearLayout>
+
+            <!--Enter Mobile Number-->
+
+
+        </LinearLayout>
+
+
+
+        <ListView
+            android:id="@+id/ble_list"
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_coner_button_bg"
+            android:textColor="@color/white"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="@dimen/lable_font_size"
+            android:textAllCaps="false"
+            android:id="@+id/btnSubmit"
+            android:text="Done" />
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

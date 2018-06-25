@@ -1,0 +1,232 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* HeTai_BleApi\
+* HeTai_BleApi\.classpath
+* HeTai_BleApi\.project
+* HeTai_BleApi\.settings\
+* HeTai_BleApi\.settings\org.eclipse.core.resources.prefs
+* HeTai_BleApi\.settings\org.eclipse.jdt.core.prefs
+* HeTai_BleApi\AndroidManifest.xml
+* HeTai_BleApi\bin\
+* HeTai_BleApi\bin\AndroidManifest.xml
+* HeTai_BleApi\bin\classes.dex
+* HeTai_BleApi\bin\classes\
+* HeTai_BleApi\bin\classes\com\
+* HeTai_BleApi\bin\classes\com\lefu\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\BuildConfig.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$2.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$3.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$4.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$5.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$6.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity$7.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\MainActivity.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$attr.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$color.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$dimen.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$drawable.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$id.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$layout.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$menu.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$string.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R$style.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\R.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\ReciveDataAdapter$ViewHolder.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\ReciveDataAdapter.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\BleAdvertisedData.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\BluetoothClassResolver.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\BluetoothLeDevice$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\BluetoothLeDevice.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\LimitedLinkHashMap.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\bean\Records.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\constant\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\constant\BLEConstant.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\constant\BluetoolUtil.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\enmu\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\enmu\Units.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\helper\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\helper\BleHelper.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BlueSingleton$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BlueSingleton$2$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BlueSingleton$2.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BlueSingleton$ScanThread.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BlueSingleton$ScanThread2.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BlueSingleton.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner$2.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner5$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner5$2.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner5.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeScannerInterface.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeService$1.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeService$LocalBinder.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothLeService.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\BluetoothUtils.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\service\SampleGattAttributes.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\utils\
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\utils\BleUtil.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\utils\ByteUtils.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\utils\StringUtils.class
+* HeTai_BleApi\bin\classes\com\lefu\hetai_bleapi\api\utils\UtilTooth.class
+* HeTai_BleApi\bin\dexedLibs\
+* HeTai_BleApi\bin\dexedLibs\HTBodyfat-d258377cc54db1874e13b967ed30617a.jar
+* HeTai_BleApi\bin\dexedLibs\android-support-v4-51cd9ae9c82a0c21d31c984f4f3a4bd7.jar
+* HeTai_BleApi\bin\res\
+* HeTai_BleApi\bin\res\crunch\
+* HeTai_BleApi\bin\res\crunch\drawable-hdpi\
+* HeTai_BleApi\bin\res\crunch\drawable-hdpi\ic_launcher.png
+* HeTai_BleApi\bin\res\crunch\drawable-mdpi\
+* HeTai_BleApi\bin\res\crunch\drawable-mdpi\ic_launcher.png
+* HeTai_BleApi\bin\res\crunch\drawable-xhdpi\
+* HeTai_BleApi\bin\res\crunch\drawable-xhdpi\ic_bluetooth.png
+* HeTai_BleApi\bin\res\crunch\drawable-xhdpi\ic_bluetooth_on.png
+* HeTai_BleApi\bin\res\crunch\drawable-xhdpi\ic_launcher.png
+* HeTai_BleApi\bin\res\crunch\drawable-xxhdpi\
+* HeTai_BleApi\bin\res\crunch\drawable-xxhdpi\ic_launcher.png
+* HeTai_BleApi\bin\resources.ap_
+* HeTai_BleApi\gen\
+* HeTai_BleApi\gen\com\
+* HeTai_BleApi\gen\com\lefu\
+* HeTai_BleApi\gen\com\lefu\hetai_bleapi\
+* HeTai_BleApi\gen\com\lefu\hetai_bleapi\BuildConfig.java
+* HeTai_BleApi\gen\com\lefu\hetai_bleapi\R.java
+* HeTai_BleApi\ic_launcher-web.png
+* HeTai_BleApi\libs\
+* HeTai_BleApi\libs\HTBodyfat.jar
+* HeTai_BleApi\libs\android-support-v4.jar
+* HeTai_BleApi\libs\arm64-v8a\
+* HeTai_BleApi\libs\arm64-v8a\libBodyfat.so
+* HeTai_BleApi\libs\armeabi-v7a\
+* HeTai_BleApi\libs\armeabi-v7a\libBodyfat.so
+* HeTai_BleApi\libs\armeabi\
+* HeTai_BleApi\libs\armeabi\libBodyfat.so
+* HeTai_BleApi\libs\mips64\
+* HeTai_BleApi\libs\mips64\libBodyfat.so
+* HeTai_BleApi\libs\mips\
+* HeTai_BleApi\libs\mips\libBodyfat.so
+* HeTai_BleApi\libs\x86\
+* HeTai_BleApi\libs\x86\libBodyfat.so
+* HeTai_BleApi\libs\x86_64\
+* HeTai_BleApi\libs\x86_64\libBodyfat.so
+* HeTai_BleApi\proguard-project.txt
+* HeTai_BleApi\project.properties
+* HeTai_BleApi\res\
+* HeTai_BleApi\res\drawable-hdpi\
+* HeTai_BleApi\res\drawable-hdpi\ic_launcher.png
+* HeTai_BleApi\res\drawable-mdpi\
+* HeTai_BleApi\res\drawable-mdpi\ic_launcher.png
+* HeTai_BleApi\res\drawable-xhdpi\
+* HeTai_BleApi\res\drawable-xhdpi\ic_bluetooth.png
+* HeTai_BleApi\res\drawable-xhdpi\ic_bluetooth_on.png
+* HeTai_BleApi\res\drawable-xhdpi\ic_launcher.png
+* HeTai_BleApi\res\drawable-xxhdpi\
+* HeTai_BleApi\res\drawable-xxhdpi\ic_launcher.png
+* HeTai_BleApi\res\layout\
+* HeTai_BleApi\res\layout\activity_main.xml
+* HeTai_BleApi\res\layout\list_item_device.xml
+* HeTai_BleApi\res\menu\
+* HeTai_BleApi\res\menu\main.xml
+* HeTai_BleApi\res\values-v11\
+* HeTai_BleApi\res\values-v11\styles.xml
+* HeTai_BleApi\res\values-v14\
+* HeTai_BleApi\res\values-v14\styles.xml
+* HeTai_BleApi\res\values-w820dp\
+* HeTai_BleApi\res\values-w820dp\dimens.xml
+* HeTai_BleApi\res\values\
+* HeTai_BleApi\res\values\colors.xml
+* HeTai_BleApi\res\values\dimens.xml
+* HeTai_BleApi\res\values\strings.xml
+* HeTai_BleApi\res\values\styles.xml
+* HeTai_BleApi\src\
+* HeTai_BleApi\src\com\
+* HeTai_BleApi\src\com\lefu\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\MainActivity.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\ReciveDataAdapter.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\bean\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\bean\BleAdvertisedData.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\bean\BluetoothClassResolver.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\bean\BluetoothLeDevice.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\bean\LimitedLinkHashMap.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\bean\Records.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\constant\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\constant\BLEConstant.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\constant\BluetoolUtil.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\enmu\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\enmu\Units.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\helper\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\helper\BleHelper.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\BlueSingleton.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\BluetoothLeScanner5.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\BluetoothLeScannerInterface.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\BluetoothLeService.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\BluetoothUtils.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\service\SampleGattAttributes.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\utils\
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\utils\BleUtil.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\utils\ByteUtils.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\utils\StringUtils.java
+* HeTai_BleApi\src\com\lefu\hetai_bleapi\api\utils\UtilTooth.java
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:25.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\arm64-v8a\libBodyfat.so => app\src\main\jniLibs\arm64-v8a\libBodyfat.so
+* libs\armeabi-v7a\libBodyfat.so => app\src\main\jniLibs\armeabi-v7a\libBodyfat.so
+* libs\armeabi\libBodyfat.so => app\src\main\jniLibs\armeabi\libBodyfat.so
+* libs\HTBodyfat.jar => app\libs\HTBodyfat.jar
+* libs\mips64\libBodyfat.so => app\src\main\jniLibs\mips64\libBodyfat.so
+* libs\mips\libBodyfat.so => app\src\main\jniLibs\mips\libBodyfat.so
+* libs\x86\libBodyfat.so => app\src\main\jniLibs\x86\libBodyfat.so
+* libs\x86_64\libBodyfat.so => app\src\main\jniLibs\x86_64\libBodyfat.so
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

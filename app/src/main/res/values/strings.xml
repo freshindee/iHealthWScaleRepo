@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weight Scale</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_no_internet">Unable to detect an active internet connection</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="no_device_tip">Discovering device...</string>
+    <string name="please_wait_tip">Measuring...Please wait...</string>
+    <string name="clear_btn">RESET</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="permission_blurtooth">Need to start blurtooth</string>
+    <string name="permission_carame">Need to start camera</string>
+    <string name="permission_read_storage_rationale">Need to read permissions to choose the picture</string>
+    <string name="permission_write_storage_rationale">Need to store permissions when taking pictures</string>
+    <string name="permission_title_rationale">Authority requirement</string>
+    <string name="no_btn">No</string>
+    <string name="ok_btn">Ok</string>
+    <string name="cancle_btn">Cancel</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="111323113178623"
+    token="7862566013678743133"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="362" />
+    <task
+        name="instant-run-dex"
+        duration="394" />
+    <task
+        name="instant-run-transform"
+        duration="24" />
+    <task
+        name="verifier"
+        duration="6" />
+
+    <artifact
+        location="C:\lefu_all_demo\HeTai_BleApi_v1.2\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="110943052099576"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\lefu_all_demo\HeTai_BleApi_v1.2\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="111186032318464"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\lefu_all_demo\HeTai_BleApi_v1.2\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\lefu_all_demo\HeTai_BleApi_v1.2\app\build\intermediates\builds\debug\111186032318464\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111323113178623"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\lefu_all_demo\HeTai_BleApi_v1.2\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

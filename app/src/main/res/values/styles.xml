@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:colorControlActivated">#1a237e</item>-->
+        <!--<item name="android:colorControlNormal">#00b0ff</item>-->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

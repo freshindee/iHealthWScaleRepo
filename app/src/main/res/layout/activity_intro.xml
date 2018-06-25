@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntroActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="333dp"
+            android:layout_height="76dp"
+            android:src="@drawable/logonew" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="20dp"
+            android:textSize="@dimen/heading_font_size"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:text="Vitals self-check station"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/scale"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="20dp"
+            android:textSize="@dimen/lable_font_size"
+            android:fontFamily="sans-serif-normal"
+            android:text="Please place both your feet as indicated above"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_coner_button_bg"
+            android:textColor="@color/white"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/lable_font_size"
+            android:textAllCaps="false"
+            android:id="@+id/btn_next"
+            android:text="Next" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

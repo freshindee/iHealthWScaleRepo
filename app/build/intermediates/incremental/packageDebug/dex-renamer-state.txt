@@ -1,0 +1,7 @@
+#Thu Mar 15 15:09:34 GMT+08:00 2018
+base.0=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5fa302c492fc588ae07566ce8222842af4e6687e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_86aedee28e0121ee8692b7c762d9c9d5ed6d41f3\\classes.dex
+base.1=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_86aedee28e0121ee8692b7c762d9c9d5ed6d41f3
+file.0=C\:\\lefu_all_demo\\HeTai_BleApi_v1.2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5fa302c492fc588ae07566ce8222842af4e6687e\\classes.dex
