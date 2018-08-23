@@ -587,7 +587,12 @@ public class MainActivity extends Activity {
                         mDeviceAddress = deviceLe.getAddress();
                         mDeviceName = deviceLe.getName();
                         if (!TextUtils.isEmpty(mDeviceAddress))
-                            mBluetoothLeService.connect(mDeviceAddress);
+
+                            if(mDeviceAddress.equals("50:33:8B:E6:79:88")){
+                                mBluetoothLeService.connect(mDeviceAddress);
+                            }
+
+                          //  mBluetoothLeService.connect(mDeviceAddress);
                     }
                     break;
 
